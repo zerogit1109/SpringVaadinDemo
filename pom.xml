@@ -15,7 +15,7 @@
 	<description>Demo project for Spring Boot and Vaadin</description>
 	<properties>
 		<java.version>11</java.version>
-		<vaadin.version>14.8.1</vaadin.version>
+		<vaadin.version>12.0.3</vaadin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -76,10 +76,6 @@
 							<execution>
 								<id>frontend</id>
 								<phase>compile</phase>
-								<goals>
-									<goal>prepare-frontend</goal>
-									<goal>build-frontend</goal>
-								</goals>
 								<configuration>
 									<productionMode>true</productionMode>
 								</configuration>
